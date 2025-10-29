@@ -1,0 +1,24 @@
+.site-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.side-bar{
+    background-color: aqua;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 200px;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.main{
+    background-color: aquamarine;
+    flex: 1, 0;
+    padding: 20px;
+}
+
+.side-bar-main-wrapper{
+    background-color: red;
+}
